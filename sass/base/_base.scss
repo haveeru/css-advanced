@@ -1,0 +1,21 @@
+*,
+*::after,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* root font size as a root value pixel properties
+  #  we cance use rem  */
+html {
+  /* 16px is default browser font size
+    ** 10/16 = 62.5%
+    ** this defines what 1 rems is
+    */
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
